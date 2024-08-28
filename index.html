@@ -176,7 +176,7 @@
             <div class=" mx-4">
               <img src="./assets/commercial.png" alt="">
             </div>
-            <div> 
+            <div class="">  
               <h3 class="font-extrabold text-black text-xl">Commercial</h3>
               <p class="text-black w-4/5		">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
@@ -219,7 +219,7 @@
     
     <!-- card -->
 
-    <div class=" lg:flex grid grid-cols-4 mt-6">
+    <div class=" lg:flex lg:grid lg:grid-cols-4 mt-6">
       <div class=" bg-[#E7C1D3] p-6 rounded-2xl m-4	">
         <i class="fa-regular fa-lightbulb text-3xl  text-black font-extrabold"></i>
         <h3 class="text-xl  text-black font-extrabold	">Concept</h3>
@@ -247,15 +247,15 @@
   <!-- video section -->
 
   
-  <div class=" flex grid grid-cols-2 mt-10">
+  <div class=" lg:flex lg:grid lg:grid-cols-2 mt-10">
     <!-- text div -->
-    <div class="p-3 text-right mx-6">
-      <h1 class="text-4xl p-3 text-black font-extrabold">Architectural engineers specialize structural aspects</h1>
+    <div class="p-3  lg:text-right mx-6">
+      <h1 class="text-4xl  p-3 text-black font-extrabold">Architectural engineers specialize structural aspects</h1>
       <p class=" pt-3 px-5 text-black text-xl ">Architectural engineers apply practical and theoretical knowledge to the engineering design of buildings and building systems. The goal is to engineer high-performance buildings that are sustainable, resilient, economically viable, that ensure the safety, health, comfort, and productivity of occupants.</p>
     </div>
     <!-- video div -->
-      <div class=" mx-4">
-      <iframe width="560" height="315" class="rounded-2xl" src="https://www.youtube.com/embed/4LuBVXWpDss?si=g5_-QBinBbSXNAbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class=" mx-4 w-[100%]">
+      <iframe   class="rounded-2xl h-[100%] w-[100%]" src="https://www.youtube.com/embed/4LuBVXWpDss?si=g5_-QBinBbSXNAbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
   </div>
 
@@ -283,10 +283,10 @@
 
     <!-- grid section -->
 
-    <div class=" grid grid-cols-4 gap-4">
-      <div class="col-span-3  rounded-2xl border border-gray-500 flex p-5 ">
+    <div class=" lg:grid lg:grid-cols-4 gap-4">
+      <div class="col-span-3  rounded-2xl border border-gray-500 lg:flex p-5 mt-5">
           <div class="h-[100%] w-[100%]">
-            <img src="./assets/img1.png"   alt="">
+            <img src="./assets/img1.png"    alt="">
           </div>
           <div class=" ">
             <h1 class=" text-xl text-black font-extrabold mb-3 ">Commercial</h1>
@@ -296,7 +296,7 @@
           </div>
       </div>
       
-      <div class=" col-span-1 rounded-2xl p-5  grid border border-gray-500 ">
+      <div class=" col-span-1 rounded-2xl p-5  grid border border-gray-500 mt-5">
         <div>
           <img src="./assets/img2.png" class="h-[100%] w-[100%]" alt="">
         </div>
@@ -307,13 +307,13 @@
 
     <!-- gird two -->
 
-    <div class=" grid grid-cols-4 gap-4 mt-6 pb-6">
-      <div class=" col-span-1 rounded-2xl p-5  grid border border-gray-500 items-center">
-        <img src="./assets/img3.png" alt="">
+    <div class=" lg:grid lg:grid-cols-4 gap-4 mt-6 pb-6">
+      <div class=" col-span-1 rounded-2xl p-5   grid border border-gray-500 items-center mt-5">
+        <img src="./assets/img3.png" class="h-[100%] w-[100%]" alt="">
       </div>
-      <div class="col-span-2  rounded-2xl border border-gray-500 flex p-5 items-center">
+      <div class="lg:col-span-2  rounded-2xl border border-gray-500 lg:flex p-5 items-center mt-5">
           <div class="h-[100%] w-[100%]">
-            <img src="./assets/img1.png"  alt="">
+            <img src="./assets/img1.png" class="h-[100%] w-[100%]" alt="">
           </div>
           <div class=" mx-3 items-center">
             <h1 class=" text-xl text-black font-extrabold mb-4">Commercial</h1>
@@ -322,7 +322,7 @@
           </div>
       </div>
       
-      <div class=" col-span-1 rounded-2xl p-5  grid border border-gray-500">
+      <div class=" col-span-1 rounded-2xl p-5  grid border border-gray-500 mt-5">
         <img src="./assets/img2.png" class="h-[100%] w-[100%]" alt="">
       </div>
 
@@ -350,7 +350,7 @@
 
     <!-- input field -->
 
-    <div class=" grid grid-rows-3 grid-cols-2 mx-[20%] gap-4 pb-4" >
+    <div class=" lg:grid lg:grid-rows-3 lg:grid-cols-2 lg:mx-[20%] gap-4 pb-4" >
       
         <input type="text" placeholder=" First Name*" class="input input-bordered rounded-full bg-white w-full " />
         <input type="text" placeholder=" Last Name*" class="input input-bordered w-full rounded-full bg-white" />
@@ -359,7 +359,7 @@
         <textarea class="textarea textarea-warning textarea-lg w-full col-span-2 border-none rounded-2xl  bg-white -mt-5" placeholder="Wright your message here "></textarea>
 
     </div>
-    <div class="text-center bg-[#ABEF5F] mx-[20%] rounded-full ">
+    <div class="text-center bg-[#ABEF5F] lg:mx-[20%] rounded-full ">
       <button class="m-auto  text-black font-extrabold py-1 ">Send Me Mail  <i class="fa-solid fa-arrow-right bg-black text-white p-1.5 rounded-full -rotate-45 "></i></button>
      </div>
 
@@ -381,10 +381,10 @@
   </div>
   <div class=" text-center">
     
-    <p class=" text-[#737373] mx-[25%] font-medium	pb-6">The barn house captivates with its blend of rustic charm and 
+    <p class=" text-[#737373] lg:mx-[25%] font-medium	pb-6">The barn house captivates with its blend of rustic charm and 
       modern sophistication, featuring weathered wood, sleek metal accents.</p>
   </div>
-  <div class="flex justify-around mx-[25%]">
+  <div class="lg:flex lg:justify-around text-center lg:mx-[25%]">
     
     <p>Home</p>
     <p>Servies</p>
